@@ -3,11 +3,11 @@ import matplotlib
 
 def present_value_calculation(C, r, t):
     """
-    present_value_calculation: explain
-    C: explain
-    r: explain
-    t: explain
-    PV: explain
+    present_value_calculation: to calculate the present value of a future cash flow
+    C: cash flow at time t
+    r: interest rate
+    t: time
+    PV: present value of C at time t
     """
     PV = C/((1+r)**t)
 
